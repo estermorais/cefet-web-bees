@@ -1,4 +1,3 @@
-/* === Exercício 0: Estilização inicial === */
 body {
   background-image: linear-gradient(to bottom right, #ffffff, #4fffca);
   font-size: 20px;
@@ -15,7 +14,6 @@ p {
   margin: 0 auto;
 }
 
-/* === Exercício 1: Curiosidades === */
 .curiosidade {
   background-image: url('imgs/favo-de-mel.png');
   border: 1px solid #c8860a;
@@ -28,7 +26,6 @@ p {
   margin-right: 20px;
 }
 
-/* === Exercício 2: Imagens das castas === */
 .casta-de-abelha {
   border-radius: 50%;
   border: 5px double #c8860a;
@@ -44,7 +41,6 @@ p {
   margin-left: 20px;
 }
 
-/* === Exercício 3: Cabeçalho === */
 #cabecalho {
   background-color: rgba(255, 255, 255, 0);
   box-shadow: 4px 4px 4px #0003;
@@ -52,46 +48,39 @@ p {
   text-align: center;
 }
 
-/* === Exercício 4: Outras estilizações === */
-
-/* 4.1 - Hyperlinks nos 4 estados */
 a:link {
-  color: #8b4513;
+  color: #13858b;
   text-decoration: none;
 }
 
 a:visited {
-  color: #a0522d;
+  color: #13858b;
   text-decoration: none;
 }
 
 a:hover {
-  color: #d4a017;
+  color: #13858b;
   text-decoration: underline;
 }
 
 a:active {
-  color: #ff8c00;
+  color: #13858b;
 }
 
-/* 4.2 - Links externos */
 a[href^="http"] {
   background-color: #fff3cd;
   padding: 1px 3px;
   border-radius: 3px;
 }
 
-/* 4.3 - Último parágrafo alinhado à direita */
 p:last-of-type {
   text-align: right;
 }
 
-/* 4.4 - Imagens sem atributo alt */
 img:not([alt]) {
   border: 3px solid red;
 }
 
-/* === Exercício 5: Cancelar flutuação na rainha === */
 #curiosidade-sem-float {
   overflow: hidden;
 }
