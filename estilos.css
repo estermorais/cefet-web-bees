@@ -1,6 +1,6 @@
 /* === Exercício 0: Estilização inicial === */
 body {
-  background-image: linear-gradient(to bottom right, #fff9e6, #ffd54f);
+  background-image: linear-gradient(to bottom right, #ffffff, #4fffca);
   font-size: 20px;
   margin: 0 40px;
   min-height: 100vh;
@@ -19,13 +19,13 @@ p {
 .curiosidade {
   background-image: url('imgs/favo-de-mel.png');
   border: 1px solid #c8860a;
-  border-radius: 10px;
-  padding: 10px;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .curiosidade img {
   float: left;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 /* === Exercício 2: Imagens das castas === */
@@ -46,7 +46,7 @@ p {
 
 /* === Exercício 3: Cabeçalho === */
 #cabecalho {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0);
   box-shadow: 4px 4px 4px #0003;
   padding: 30px;
   text-align: center;
